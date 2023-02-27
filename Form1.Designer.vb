@@ -31,17 +31,18 @@ Partial Class Form1
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
@@ -140,45 +141,24 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(877, 448)
         Me.Panel1.TabIndex = 8
         '
-        'Label2
+        'Label9
         '
-        Me.Label2.BackColor = System.Drawing.Color.White
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label2.Location = New System.Drawing.Point(330, 32)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(516, 23)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "None..."
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label9.Location = New System.Drawing.Point(11, 362)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(294, 62)
+        Me.Label9.TabIndex = 17
+        Me.Label9.Text = "ITEM IMAGE AND DESCRIPTION"
         '
-        'Label3
+        'PictureBox3
         '
-        Me.Label3.BackColor = System.Drawing.Color.White
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label3.Location = New System.Drawing.Point(330, 98)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(516, 23)
-        Me.Label3.TabIndex = 10
-        Me.Label3.Text = "None..."
-        '
-        'Label4
-        '
-        Me.Label4.BackColor = System.Drawing.Color.White
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label4.Location = New System.Drawing.Point(330, 158)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(516, 23)
-        Me.Label4.TabIndex = 11
-        Me.Label4.Text = "None..."
-        '
-        'Label5
-        '
-        Me.Label5.BackColor = System.Drawing.Color.White
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label5.Location = New System.Drawing.Point(330, 220)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(516, 23)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "None..."
+        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.PictureBox3.Location = New System.Drawing.Point(16, 87)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(289, 257)
+        Me.PictureBox3.TabIndex = 16
+        Me.PictureBox3.TabStop = False
         '
         'Label6
         '
@@ -210,24 +190,45 @@ Partial Class Form1
         Me.Label8.TabIndex = 13
         Me.Label8.Text = "None..."
         '
-        'PictureBox3
+        'Label5
         '
-        Me.PictureBox3.BackgroundImage = CType(resources.GetObject("PictureBox3.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(16, 87)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(289, 257)
-        Me.PictureBox3.TabIndex = 16
-        Me.PictureBox3.TabStop = False
+        Me.Label5.BackColor = System.Drawing.Color.White
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label5.Location = New System.Drawing.Point(330, 220)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(516, 23)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "None..."
         '
-        'Label9
+        'Label4
         '
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
-        Me.Label9.Location = New System.Drawing.Point(11, 362)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(294, 62)
-        Me.Label9.TabIndex = 17
-        Me.Label9.Text = "ITEM IMAGE AND DESCRIPTION"
+        Me.Label4.BackColor = System.Drawing.Color.White
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label4.Location = New System.Drawing.Point(330, 158)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(516, 23)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "None..."
+        '
+        'Label3
+        '
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label3.Location = New System.Drawing.Point(330, 98)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(516, 23)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "None..."
+        '
+        'Label2
+        '
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Label2.Location = New System.Drawing.Point(330, 32)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(516, 23)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "None..."
         '
         'Label10
         '
@@ -251,12 +252,24 @@ Partial Class Form1
         Me.Button1.Text = "Report Issue"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!)
+        Me.Button2.Location = New System.Drawing.Point(895, 377)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(189, 57)
+        Me.Button2.TabIndex = 12
+        Me.Button2.Text = "Latest Item"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1184, 649)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.PictureBox2)
@@ -295,4 +308,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
