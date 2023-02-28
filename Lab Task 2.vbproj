@@ -50,6 +50,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -78,29 +79,29 @@
     <Compile Include="AboutThisApplication.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dialog1.Designer.vb">
-      <DependentUpon>Dialog1.vb</DependentUpon>
+    <Compile Include="Error!.Designer.vb">
+      <DependentUpon>Error!.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dialog1.vb">
+    <Compile Include="Error!.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dialog2.Designer.vb">
-      <DependentUpon>Dialog2.vb</DependentUpon>
+    <Compile Include="Report Success.Designer.vb">
+      <DependentUpon>Report Success.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dialog2.vb">
+    <Compile Include="Report Success.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="PC HEAVEN.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="PC HEAVEN.Designer.vb">
+      <DependentUpon>PC HEAVEN.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="Reporting Interface.Designer.vb">
+      <DependentUpon>Reporting Interface.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form2.vb">
+    <Compile Include="Reporting Interface.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Latest Promotion.Designer.vb">
@@ -141,17 +142,17 @@
     <EmbeddedResource Include="AboutThisApplication.resx">
       <DependentUpon>AboutThisApplication.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dialog1.resx">
-      <DependentUpon>Dialog1.vb</DependentUpon>
+    <EmbeddedResource Include="Error!.resx">
+      <DependentUpon>Error!.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dialog2.resx">
-      <DependentUpon>Dialog2.vb</DependentUpon>
+    <EmbeddedResource Include="Report Success.resx">
+      <DependentUpon>Report Success.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="PC HEAVEN.resx">
+      <DependentUpon>PC HEAVEN.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="Reporting Interface.resx">
+      <DependentUpon>Reporting Interface.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Latest Promotion.resx">
       <DependentUpon>Latest Promotion.vb</DependentUpon>
